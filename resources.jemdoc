@@ -8,7 +8,7 @@ I have uploaded domain adaptation datasets for office-31,office-home,office-calt
 Please follow following steps to get the data-
 
 . Download the desired  dataset in the linux machine. 
-. If the file is gzip compressed then use command gzip -d tar -xvf <file_name>.tar.md.gz to get the 
+. If the file is gzip compressed then use command tar -xvf <file_name>.tar.md.gz to get the 
   uncompressed data.
 . Use command tar -xvf <file_name>.tar.md to get <file_name>.tar and checksum file <file_name>.md5sum 
 . (Optional) Check the checksum using command md5sum -c <file_name>.md5sum.
