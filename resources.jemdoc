@@ -2,6 +2,8 @@
 = Resources
 
 
+== Domain Adaptation Datasets
+~~~
 I have uploaded domain adaptation datasets for office-31,office-home,office-caltech,digits,image-clef and domain-net on [https:\/\/mega.nz\/folder\/RYQE3RDI\#7SBvXvhSiYyFCSyLPUkKew mega.nz]
 Please follow following steps to get the data-
 
@@ -11,4 +13,4 @@ Please follow following steps to get the data-
 . Use command tar -xvf <file_name>.tar.md to get <file_name>.tar and checksum file <file_name>.md5sum 
 . (Optional) Check the checksum using command md5sum -c <file_name>.md5sum.
 . Use command tar -xvf <file_name>.tar to get original folders.
-
+~~~
