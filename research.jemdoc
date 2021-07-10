@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{research.html}
+= Research
+
+~~~
+*Learning Robust Models for Visual Tasks*\n
+/M.Tech thesis project, advised by Prof. R. Venkatesh Babu,VAL IISc/\n
+Machine learning algorithms assume training data and test data should come from the same distribution and do not generalize well in presence of domain shift. Domain adaptation approaches are used,	
+to adapt, a trained machine learning model in the source domain to the desired target domain in an	
+unsupervised manner. My thesis project focuses on a simple and efficient approach, for multi-source domain adaptation.
+
+~~~
+
+~~~
+*Practical and Efficient HDR photography using CNN*\n
+/Research paper,ECCV-2020,VAL IISc/\n
+In this research paper, we proposed a practical and efficient approach to de-ghosting HDR images. Our
+method can process images up x16 times more resolution than the existing state of the art methods
+without compromising significant performance.
+~~~

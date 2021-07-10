@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{publication.html}
+= Publication
+
+~~~
+== Conferences
+
+1. K Ram Prabhakar, S Agrawal, *D K Singh*, B Ashwath, R. V. Babu, *Towards Practical and Efficient High-Resolution HDR Deghosting with CNN*, in ECCV 2020 at Glasgow, Scotland. \[Poster\]
+
+2. Naveen Venkat, Jogendra Nath Kundu, *Durgesh Kumar Singh*, Ambareesh Revanur, R Venkatesh Babu, *Your Classifier can Secretly Suffice Multi-Source Domain Adaptation*, in NeurIPS 2020. \[Poster\]
+~~~

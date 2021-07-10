@@ -1,0 +1,27 @@
+# jemdoc: menu{MENU}{project.html}
+= Industry Projects and Softwares
+
+~~~
+*Market Basket Analysis*\n
+/Industry Project,Tata Cosultancy Services/\n
+Performed market basket analysis on customer purchase data for a dental health-care company. This
+project aimed to look for combinations of items that occur together frequently in transactions and
+decide which "product combos" to offer in the holiday season.
+~~~
+
+~~~
+*Profile Recommendation System*\n
+/Industry Project,Tata Cosultancy Services/\n
+Building a job seeker profile recommendation system for employers and representatives for enhancement of Adapt CRM platform, which is used by Hays Plc.
+~~~
+
+~~~
+*Comparative Analysis of GRU and its variants on POS Tagging problem*\n
+POS Tagger was implemented using GRU and its variants and comparative analysis was performed to
+determine which variant works best for the problem.
+~~~
+
+~~~
+*Image segmentation using K-Means,Fuzzy C-means and Mean Shift Algorithm*\n
+Various techniques for image segmentation were compared with each other using the ground truth.
+~~~
