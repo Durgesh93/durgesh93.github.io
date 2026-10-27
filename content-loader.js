@@ -59,9 +59,9 @@
     const projects = query(db, 'SELECT * FROM projects ORDER BY sort_order');
     const rows = projects.map((item, index) => {
       const tags = item.technology.split('·').map((tag) => `<span>${escapeHtml(tag.trim())}</span>`).join('');
-      return `<article class="project-row"><div class="project-index">${String(index + 1).padStart(2, '0')}</div><div class="project-summary"><h2>${escapeHtml(item.title)}</h2><p>${escapeHtml(item.description)}</p><div class="project-tags">${tags}</div></div><a class="project-action" href="${escapeHtml(item.repo_url)}"><span>View on GitHub</span><span aria-hidden="true">↗</span></a></article>`;
+      return `<article class="project-row"><div class="project-index">${String(index + 1).padStart(2, '0')}</div><div class="project-summary"><h2>${escapeHtml(item.title)}</h2><p>${escapeHtml(item.description)}</p><div class="project-tags">${tags}</div></div><a class="project-action" href="${escapeHtml(item.repo_url)}"><span>View branch</span><span aria-hidden="true">↗</span></a></article>`;
     }).join('');
-    return `<header class="page-heading project-heading"><p class="eyebrow">Hobby projects</p><h1>Code, curiosity, and small experiments.</h1><p class="lede">A project index for the ideas I explore outside my publication record.</p></header><section class="project-index-list">${rows}</section>`;
+    return `<header class="page-heading project-heading"><p class="eyebrow">Hobby projects</p><h1>Code, curiosity, and small experiments.</h1><p class="lede">A project index for the ideas I explore outside my publication record. All of them now live in a single GitHub repository, <a href="https://github.com/Durgesh93/ml_projects">ml_projects</a>, with one branch per project.</p><div class="actions"><a class="button" href="https://github.com/Durgesh93/ml_projects">Browse ml_projects on GitHub ↗</a></div></header><section class="project-index-list">${rows}</section>`;
   }
 
   function renderCredentials(db) {
